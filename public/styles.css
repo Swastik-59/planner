@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+header {
+  background-color: #f5ba13;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.screen{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  background-color: #f5b913;
+  object-fit:fill;
+}
+
+.form{
+  margin-top: 7vw;
+}
+
+.form_input{
+  border: 1px solid black;
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 30vw;
+  border-radius: .5vw;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 1vw 5vw;
+  margin: 0 auto 1.5vw auto;
+  display: block;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  font-weight: 300;
+}
+
+.form_button{
+  cursor: pointer;
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 1vw 5vw;
+  color: black;
+  border-radius: 1vw;
+  margin: 1.6vw;
+  width: 27vw;
+  font-size: 1.8vw;
+}
+
+.form_h1{
+  color: white;
+  font-size: 4vw;
+  margin-bottom: 1.5vw;
+  margin-bottom: 2vw;
+}
+
+.form_p{
+  margin-top: 3vw;
+  cursor: default;
+}
+
+.h_1{
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  background-color: #f5ba13;
+  margin-left: -80vw;
+  margin-bottom: -3.5vw;
+  margin-top: 1vw;
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
